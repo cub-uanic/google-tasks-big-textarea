@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GTasksBigTextarea
-// @namespace    http://tampermonkey.net/
-// @version      0.2
+// @namespace    https://github.com/cub-uanic/google-tasks-big-textarea
+// @version      0.3
 // @description  improve UX when editing tast details
 // @author       Oleg Kostyuk <cub.uanic@gmail.com>
 // @match        https://mail.google.com/tasks/canvas?pli=1
