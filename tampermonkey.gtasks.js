@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         GTasksBigTextarea
 // @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
+// @version      0.2
+// @description  improve UX when editing tast details
+// @author       Oleg Kostyuk <cub.uanic@gmail.com>
 // @match        https://mail.google.com/tasks/canvas?pli=1
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js
 // @grant        none
