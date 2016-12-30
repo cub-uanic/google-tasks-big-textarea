@@ -6,6 +6,8 @@
 // @author       Oleg Kostyuk <cub.uanic@gmail.com>
 // @match        https://mail.google.com/tasks/canvas
 // @match 	 https://mail.google.com/tasks/ig
+// @include      https://mail.google.com/tasks/*
+// @include      javascript:parent.gtasks.embed.createHtmlForTasksFrame*
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js
 // @grant        none
 // ==/UserScript==
@@ -21,8 +23,8 @@ function main($){
     var if1=$('iframe');
 	if1.load(function(){
             setTimeout(function(){
-                $('iframe').contents().find('div.f').find('textarea').attr('rows', 45);
-		$('iframe').contents().find('textarea').attr('rows', 45);
+            	$('iframe').contents().find('textarea').css('resize', 'both');
+            	$('iframe').contents().find('textarea').css('height', '450px');
             },500);
 	});
 }
